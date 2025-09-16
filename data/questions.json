@@ -1,0 +1,563 @@
+[
+  {
+    "userId": "single-user",
+    "stem": "A 24-year-old with chest pain and dyspnea. Which is most likely?",
+    "choices": [
+      "Pneumothorax",
+      "MI",
+      "Aortic dissection",
+      "Pericarditis"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sudden pleuritic pain + dyspnea in young patient -> spontaneous pneumothorax.",
+    "tags": [
+      "pulm"
+    ],
+    "difficulty": 2,
+    "createdAt": "2025-09-16T20:41:38.891Z",
+    "id": "1758055298891"
+  },
+  {
+    "userId": "single-user",
+    "stem": "A 54-year-old male presents to the emergency department with chest pain that started while he was gardening. He describes the pain as a pressure sensation that radiates to his left arm. His past medical history is significant for hypertension and hyperlipidemia. On examination, his vital signs are stable, and an ECG shows ST-segment elevation in leads II, III, and aVF. What is the most likely underlying cause of this patient's condition?",
+    "choices": [
+      "A. Atherosclerosis",
+      "B. Myocarditis",
+      "C. Pulmonary embolism",
+      "D. Aortic dissection"
+    ],
+    "answerIndex": 0,
+    "explanation": "This patient is presenting with classic signs of an inferior ST-segment elevation myocardial infarction (STEMI), indicated by the chest pain and the ST-segment elevation in leads II, III, and aVF. The most common underlying cause of this condition, particularly in a patient with risk factors such as hypertension and hyperlipidemia, is atherosclerosis. Atherosclerosis leads to the formation of plaques in the coronary arteries, which can rupture and cause thrombosis, resulting in myocardial ischemia. Myocarditis (Choice B) typically presents with different symptoms and is not usually associated with acute chest pain in this manner. Pulmonary embolism (Choice C) usually presents with acute onset dyspnea and pleuritic chest pain rather than isolated chest pressure. Aortic dissection (Choice D) can cause chest pain but typically presents with different characteristics and often involves a tearing sensation. Hence, the correct answer is A. Atherosclerosis.",
+    "tags": [
+      "cardiology",
+      "emergency medicine",
+      "pathophysiology"
+    ],
+    "difficulty": 2,
+    "createdAt": "2025-09-16T20:41:52.245Z",
+    "id": "1758055312245"
+  },
+  {
+    "userId": "single-user",
+    "stem": "A 25-year-old woman presents to the emergency department with severe abdominal pain. Upon examination, it is noted that her pain is localized to the right upper quadrant. An ultrasound is performed and reveals the presence of gallstones. Which of the following anatomical structures is primarily responsible for draining bile from the gallbladder into the duodenum?",
+    "choices": [
+      "A. Cystic duct",
+      "B. Common bile duct",
+      "C. Hepatic duct",
+      "D. Pancreatic duct"
+    ],
+    "answerIndex": 0,
+    "explanation": "The cystic duct is the structure that connects the gallbladder to the common bile duct. When bile is needed for digestion, it flows from the gallbladder through the cystic duct and into the common bile duct, which then delivers it to the duodenum. The common bile duct is formed by the union of the cystic duct and the common hepatic duct, but the question specifically asks for the duct that drains bile directly from the gallbladder. Therefore, the correct answer is A. Cystic duct.",
+    "tags": [
+      "anatomy",
+      "gastroenterology"
+    ],
+    "difficulty": 2,
+    "createdAt": "2025-09-16T20:45:18.709Z",
+    "id": "1758055518709"
+  },
+  {
+    "id": "q_1758059057788_hvrspm5ly",
+    "stem": "A 65-year-old man presents to the emergency department with chest pain and shortness of breath. An ECG shows ST-segment elevation in leads II, III, and aVF. Which coronary artery is most likely occluded?",
+    "choices": [
+      "A) Left anterior descending artery",
+      "B) Right coronary artery",
+      "C) Left circumflex artery",
+      "D) Posterior descending artery",
+      "E) Left main coronary artery"
+    ],
+    "answerIndex": 1,
+    "explanation": "The ST-segment elevation in leads II, III, and aVF indicates an inferior wall myocardial infarction, which is commonly caused by occlusion of the right coronary artery in right dominant coronary systems.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.788Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057790_oac1x0dzv",
+    "stem": "A 45-year-old woman with a history of hypertension presents with palpitations and lightheadedness. An echocardiogram shows left ventricular hypertrophy. Which of the following is the most likely underlying cause of her symptoms?",
+    "choices": [
+      "A) Aortic stenosis",
+      "B) Hypertrophic cardiomyopathy",
+      "C) Mitral regurgitation",
+      "D) Atrial fibrillation",
+      "E) Coronary artery disease"
+    ],
+    "answerIndex": 1,
+    "explanation": "Left ventricular hypertrophy due to chronic hypertension can predispose to arrhythmias like atrial fibrillation, which may explain her palpitations and lightheadedness.",
+    "difficulty": 2,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.790Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057790_dri287zhy",
+    "stem": "A 55-year-old man presents with a sudden onset of severe chest pain radiating to the back. A chest X-ray shows a widened mediastinum. What is the most likely diagnosis?",
+    "choices": [
+      "A) Acute myocardial infarction",
+      "B) Aortic dissection",
+      "C) Pulmonary embolism",
+      "D) Esophageal rupture",
+      "E) Pericarditis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The sudden severe chest pain and widened mediastinum on chest X-ray are classic signs of aortic dissection, a life-threatening condition.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.790Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057790_erfp57fm2",
+    "stem": "A 30-year-old woman presents with a history of episodes of rapid heart rate and palpitations. An ECG shows a narrow QRS complex tachycardia. What is the most likely mechanism of her condition?",
+    "choices": [
+      "A) Enhanced automaticity",
+      "B) Reentrant circuit",
+      "C) Triggered activity",
+      "D) Increased serotonin levels",
+      "E) Decreased vagal tone"
+    ],
+    "answerIndex": 1,
+    "explanation": "Narrow QRS complex tachycardia is typically due to a reentrant circuit, commonly seen in conditions such as atrioventricular nodal reentrant tachycardia (AVRT).",
+    "difficulty": 2,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.790Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057791_pvhjbw4cx",
+    "stem": "A 70-year-old man with a long-standing history of diabetes presents with worsening exertional dyspnea and orthopnea. On examination, he has elevated jugular venous pressure and bilateral crackles on lung auscultation. What is the most likely cause of his symptoms?",
+    "choices": [
+      "A) Left-sided heart failure",
+      "B) Right-sided heart failure",
+      "C) Pulmonary embolism",
+      "D) Aortic regurgitation",
+      "E) Mitral stenosis"
+    ],
+    "answerIndex": 0,
+    "explanation": "The symptoms of exertional dyspnea, orthopnea, elevated jugular venous pressure, and crackles suggest left-sided heart failure leading to pulmonary congestion.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.791Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057791_ayk0g51qa",
+    "stem": "A 25-year-old male presents with chest pain and a family history of sudden cardiac death. An echocardiogram reveals asymmetric septal hypertrophy. What is the most likely diagnosis?",
+    "choices": [
+      "A) Dilated cardiomyopathy",
+      "B) Hypertrophic cardiomyopathy",
+      "C) Restrictive cardiomyopathy",
+      "D) Arrhythmogenic right ventricular cardiomyopathy",
+      "E) Myocarditis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The presence of asymmetric septal hypertrophy along with a family history of sudden cardiac death is characteristic of hypertrophic cardiomyopathy.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.791Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057791_c5u7xqg3m",
+    "stem": "A 60-year-old woman with a history of chronic hypertension presents with a new murmur best heard at the left sternal border during diastole. What is the most likely valvular pathology?",
+    "choices": [
+      "A) Aortic stenosis",
+      "B) Mitral regurgitation",
+      "C) Aortic regurgitation",
+      "D) Mitral stenosis",
+      "E) Tricuspid regurgitation"
+    ],
+    "answerIndex": 2,
+    "explanation": "A diastolic murmur best heard at the left sternal border is characteristic of aortic regurgitation, which may develop in patients with chronic hypertension.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.791Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057792_anpjji9ow",
+    "stem": "A 50-year-old male with a history of hyperlipidemia presents with a myocardial infarction. Which of the following is the most significant risk factor for his condition?",
+    "choices": [
+      "A) Smoking",
+      "B) Hypertension",
+      "C) Diabetes mellitus",
+      "D) Family history",
+      "E) Hyperlipidemia"
+    ],
+    "answerIndex": 4,
+    "explanation": "Hyperlipidemia is a significant modifiable risk factor for coronary artery disease and myocardial infarction. It contributes to the formation of atherosclerotic plaques.",
+    "difficulty": 2,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.792Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057792_20l5bgyxa",
+    "stem": "A 35-year-old woman presents with palpitations and lightheadedness. ECG shows a prolonged QT interval. Which of the following is a potential cause of her condition?",
+    "choices": [
+      "A) Hyperkalemia",
+      "B) Hypercalcemia",
+      "C) Hypomagnesemia",
+      "D) Hypokalemia",
+      "E) Hypernatremia"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hypomagnesemia can lead to a prolonged QT interval due to its role in cardiac repolarization. It is important to correct electrolyte imbalances to prevent arrhythmias.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.792Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057792_czr5fbs0z",
+    "stem": "A 40-year-old woman presents with fatigue and has a history of breast cancer treated with anthracyclines. What is the most likely cardiac complication of her treatment?",
+    "choices": [
+      "A) Aortic stenosis",
+      "B) Dilated cardiomyopathy",
+      "C) Hypertrophic cardiomyopathy",
+      "D) Myocarditis",
+      "E) Pericarditis"
+    ],
+    "answerIndex": 1,
+    "explanation": "Anthracyclines can cause dose-dependent dilated cardiomyopathy as a late complication of treatment, leading to heart failure symptoms.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.792Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057793_qpb7unq2y",
+    "stem": "A 72-year-old male presents with exertional dyspnea and peripheral edema. He has a history of coronary artery disease. An echocardiogram shows a dilated left ventricle with decreased ejection fraction. What is the most likely diagnosis?",
+    "choices": [
+      "A) Hypertensive heart disease",
+      "B) Ischemic cardiomyopathy",
+      "C) Valvular heart disease",
+      "D) Restrictive cardiomyopathy",
+      "E) Peripartum cardiomyopathy"
+    ],
+    "answerIndex": 1,
+    "explanation": "The dilated left ventricle with decreased ejection fraction in the context of coronary artery disease suggests ischemic cardiomyopathy, often resulting from previous myocardial infarctions.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.793Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057794_6nwbmksfg",
+    "stem": "A 50-year-old man presents with sudden onset of severe chest pain and syncope. His medical history is notable for hyperlipidemia and smoking. Which of the following is the most likely cause of his symptoms?",
+    "choices": [
+      "A) Aortic dissection",
+      "B) Pulmonary embolism",
+      "C) Myocardial infarction",
+      "D) Pericarditis",
+      "E) Esophageal rupture"
+    ],
+    "answerIndex": 2,
+    "explanation": "The sudden onset of severe chest pain and syncope in a patient with risk factors such as hyperlipidemia and smoking strongly suggests a myocardial infarction.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.794Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057794_66ch5l2w3",
+    "stem": "A 68-year-old female presents with fatigue, shortness of breath, and a new heart murmur. An echocardiogram reveals a thickened mitral valve with restricted opening. What is the most likely diagnosis?",
+    "choices": [
+      "A) Aortic stenosis",
+      "B) Mitral regurgitation",
+      "C) Mitral stenosis",
+      "D) Aortic regurgitation",
+      "E) Tricuspid stenosis"
+    ],
+    "answerIndex": 2,
+    "explanation": "A thickened mitral valve with restricted opening is characteristic of mitral stenosis, often due to rheumatic heart disease.",
+    "difficulty": 3,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.794Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059057795_w9usw5jmq",
+    "stem": "A 52-year-old man presents with chest pain and a family history of premature coronary artery disease. An angiogram shows significant stenosis of the left anterior descending artery. Which of the following lifestyle modifications would be most beneficial for his condition?",
+    "choices": [
+      "A) Increasing physical activity",
+      "B) Reducing sodium intake",
+      "C) Increasing fat intake",
+      "D) Smoking cessation",
+      "E) Reducing calcium intake"
+    ],
+    "answerIndex": 3,
+    "explanation": "Smoking cessation is one of the most significant lifestyle modifications that can reduce the risk of coronary artery disease and improve outcomes in patients with existing heart conditions.",
+    "difficulty": 2,
+    "topic": "cardiology",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:44:17.795Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183082_nv9btqsvn",
+    "stem": "A 65-year-old man presents with a history of chest pain during exertion. An exercise stress test shows significant ST-segment depression. Which of the following is the most likely underlying pathology?",
+    "choices": [
+      "A) Aortic stenosis",
+      "B) Coronary artery disease",
+      "C) Hypertrophic cardiomyopathy",
+      "D) Mitral valve prolapse",
+      "E) Pericarditis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The patient's symptoms and stress test results are indicative of ischemic heart disease, most commonly due to coronary artery disease.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.082Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183083_9kx4tighp",
+    "stem": "A 50-year-old woman presents with palpitations and lightheadedness. An ECG shows a narrow QRS tachycardia at a rate of 180 bpm. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "A) Atrial flutter",
+      "B) Atrial fibrillation",
+      "C) Paroxysmal supraventricular tachycardia",
+      "D) Ventricular tachycardia",
+      "E) Sinus tachycardia"
+    ],
+    "answerIndex": 2,
+    "explanation": "The narrow QRS complex and rapid rate suggest a reentrant tachycardia, commonly seen in paroxysmal supraventricular tachycardia.",
+    "difficulty": 2,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.083Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183084_16jzs86ul",
+    "stem": "A 72-year-old man with a history of hypertension and diabetes presents with worsening dyspnea on exertion. On examination, he has elevated jugular venous pressure and bilateral crackles on lung auscultation. What is the most likely diagnosis?",
+    "choices": [
+      "A) Acute respiratory distress syndrome",
+      "B) Congestive heart failure",
+      "C) Pulmonary embolism",
+      "D) Pneumonia",
+      "E) COPD exacerbation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The signs of elevated jugular venous pressure and pulmonary crackles are classic for congestive heart failure.",
+    "difficulty": 2,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.084Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183085_kfogtdglx",
+    "stem": "A 45-year-old male presents with sudden onset of severe chest pain radiating to his back. A chest X-ray shows a widened mediastinum. What is the most likely diagnosis?",
+    "choices": [
+      "A) Myocardial infarction",
+      "B) Pulmonary embolism",
+      "C) Aortic dissection",
+      "D) Pericarditis",
+      "E) Esophageal rupture"
+    ],
+    "answerIndex": 2,
+    "explanation": "The sudden severe chest pain and widened mediastinum on X-ray strongly suggest aortic dissection.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.085Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183085_4s6szndst",
+    "stem": "A 60-year-old man with a long-standing history of hypertension presents with a new murmur and signs of heart failure. An echocardiogram shows left ventricular hypertrophy and aortic regurgitation. What is the most likely cause of his symptoms?",
+    "choices": [
+      "A) Ischemic heart disease",
+      "B) Aortic stenosis",
+      "C) Chronic hypertension",
+      "D) Mitral regurgitation",
+      "E) Restrictive cardiomyopathy"
+    ],
+    "answerIndex": 2,
+    "explanation": "Chronic hypertension leads to left ventricular hypertrophy and can contribute to aortic regurgitation due to dilation of the aortic root.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.085Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183086_xifcxvbqb",
+    "stem": "A 30-year-old woman presents with fatigue, palpitations, and a family history of sudden cardiac death. An echocardiogram reveals asymmetric septal hypertrophy. What is the most likely diagnosis?",
+    "choices": [
+      "A) Dilated cardiomyopathy",
+      "B) Hypertrophic cardiomyopathy",
+      "C) Restrictive cardiomyopathy",
+      "D) Arrhythmogenic right ventricular cardiomyopathy",
+      "E) Myocarditis"
+    ],
+    "answerIndex": 1,
+    "explanation": "The findings are suggestive of hypertrophic cardiomyopathy, a condition often associated with familial patterns and sudden cardiac death.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.086Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183086_i0f7h6d20",
+    "stem": "A 55-year-old man with a history of smoking presents with exertional dyspnea and a chronic cough. His ECG shows right axis deviation and right ventricular hypertrophy. What is the most likely diagnosis?",
+    "choices": [
+      "A) Chronic obstructive pulmonary disease",
+      "B) Pulmonary hypertension",
+      "C) Congestive heart failure",
+      "D) Asthma",
+      "E) Interstitial lung disease"
+    ],
+    "answerIndex": 1,
+    "explanation": "Right axis deviation and right ventricular hypertrophy are indicative of pulmonary hypertension, often seen in smokers.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.086Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183087_02mebi2ul",
+    "stem": "A 25-year-old male presents with sharp chest pain that worsens with deep breaths. An ECG shows ST elevation in leads II, III, and aVF. What is the most likely cause of his symptoms?",
+    "choices": [
+      "A) Myocardial infarction",
+      "B) Pulmonary embolism",
+      "C) Pericarditis",
+      "D) Aortic dissection",
+      "E) Gastroesophageal reflux disease"
+    ],
+    "answerIndex": 2,
+    "explanation": "The sharp chest pain that worsens with respiration and the ST elevation in inferior leads suggest pericarditis.",
+    "difficulty": 2,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.087Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183087_61ucymjn7",
+    "stem": "A 70-year-old woman presents with new-onset atrial fibrillation and is noted to have a large left atrial appendage on echocardiogram. What is the most significant risk associated with this finding?",
+    "choices": [
+      "A) Myocardial infarction",
+      "B) Stroke",
+      "C) Heart failure",
+      "D) Pulmonary embolism",
+      "E) Aortic dissection"
+    ],
+    "answerIndex": 1,
+    "explanation": "A large left atrial appendage in atrial fibrillation is a significant risk factor for the formation of thrombi, which can lead to stroke.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.087Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183087_gp516c182",
+    "stem": "A 40-year-old man with no significant past medical history presents with sudden loss of consciousness while exercising. An ECG shows a short PR interval and a delta wave. What is the most likely diagnosis?",
+    "choices": [
+      "A) Atrial fibrillation",
+      "B) Wolff-Parkinson-White syndrome",
+      "C) Long QT syndrome",
+      "D) Ventricular tachycardia",
+      "E) Sinus bradycardia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The presence of a short PR interval and delta wave is characteristic of Wolff-Parkinson-White syndrome, which can lead to sudden cardiac events.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.087Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183088_l0srzpm63",
+    "stem": "A 62-year-old male with a history of diabetes and hyperlipidemia is found to have a 90% occlusion of the left anterior descending artery. Which of the following is the most likely complication of this occlusion?",
+    "choices": [
+      "A) Atrial fibrillation",
+      "B) Myocardial infarction",
+      "C) Cardiomyopathy",
+      "D) Heart failure",
+      "E) Sudden cardiac death"
+    ],
+    "answerIndex": 1,
+    "explanation": "A 90% occlusion of the left anterior descending artery significantly increases the risk of myocardial infarction due to inadequate blood supply to the heart muscle.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.088Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183088_9yri57ay1",
+    "stem": "A 54-year-old woman presents with a history of chest pain and a recent diagnosis of hyperlipidemia. Which of the following is the most important lifestyle modification she should implement to reduce her cardiovascular risk?",
+    "choices": [
+      "A) Increase physical activity",
+      "B) Start smoking cessation",
+      "C) Adopt a Mediterranean diet",
+      "D) Manage stress",
+      "E) Limit alcohol consumption"
+    ],
+    "answerIndex": 1,
+    "explanation": "Smoking cessation is the most crucial intervention to reduce cardiovascular risk, especially in a patient with hyperlipidemia.",
+    "difficulty": 2,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.088Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183089_ii5o050hp",
+    "stem": "A 35-year-old female with a family history of early coronary artery disease presents with episodes of chest pain and syncope. An ambulatory Holter monitor shows frequent ventricular ectopy. What is the most appropriate management?",
+    "choices": [
+      "A) Beta-blockers",
+      "B) Calcium channel blockers",
+      "C) Antiarrhythmic medication",
+      "D) Implantable cardioverter-defibrillator",
+      "E) Lifestyle modification"
+    ],
+    "answerIndex": 0,
+    "explanation": "In patients with significant ventricular ectopy and a family history of coronary artery disease, beta-blockers are often used for management.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.089Z",
+    "source": "web-scraped-generated"
+  },
+  {
+    "id": "q_1758059183089_h63dmuqy6",
+    "stem": "A 45-year-old man is diagnosed with dilated cardiomyopathy. Which of the following is a common etiology?",
+    "choices": [
+      "A) Alcohol abuse",
+      "B) Hypertension",
+      "C) Myocarditis",
+      "D) Ischemic heart disease",
+      "E) All of the above"
+    ],
+    "answerIndex": 4,
+    "explanation": "Dilated cardiomyopathy can be caused by a variety of factors, including alcohol abuse, hypertension, myocarditis, and ischemic heart disease.",
+    "difficulty": 3,
+    "topic": "cardio",
+    "userId": "single-user",
+    "createdAt": "2025-09-16T21:46:23.089Z",
+    "source": "web-scraped-generated"
+  }
+]
