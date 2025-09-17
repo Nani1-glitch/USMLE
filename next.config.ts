@@ -12,8 +12,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/USMLE' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/USMLE' : '',
 };
 
 export default nextConfig;
