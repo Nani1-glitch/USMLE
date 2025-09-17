@@ -7,16 +7,13 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  devIndicators: {
-    buildActivity: false,
-  },
-  // output: 'export', // Commented out for API routes
+  // output: 'export', // Disabled - API routes not compatible with static export
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/usmle-ai' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/usmle-ai' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/USMLE' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/USMLE' : '',
 };
 
 export default nextConfig;
