@@ -14,7 +14,7 @@ export async function GET(req: NextRequest) {
     
     let q;
     if (reviews.length) {
-      q = findData("questions", reviews[0].questionId);
+      q = findData("questions", (reviews[0] as any).questionId);
     } else {
       const questions = readData("questions").filter((q: any) => 
         q.userId === "single-user" && q.id !== excludeId
@@ -24,12 +24,12 @@ export async function GET(req: NextRequest) {
     
     if (!q) return new Response(JSON.stringify({ done: true }));
     return new Response(JSON.stringify({
-      id: q.id,
-      stem: q.stem,
-      choices: q.choices,
-      answerIndex: q.answerIndex,
-      explanation: q.explanation,
-      difficulty: q.difficulty,
+      id: (q as any).id,
+      stem: (q as any).stem,
+      choices: (q as any).choices,
+      answerIndex: (q as any).answerIndex,
+      explanation: (q as any).explanation,
+      difficulty: (q as any).difficulty,
     }));
   } catch (e) {
     return new Response(JSON.stringify({ error: "Next error" }), { status: 500 });

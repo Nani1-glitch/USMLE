@@ -212,7 +212,7 @@ export default function HomePage() {
             USMLE AI Tutor
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-6 sm:mb-8 animate-fade-in-delay px-4">
-            Transform your medical education with the world's most advanced AI-powered USMLE preparation platform. 
+            Transform your medical education with the world&apos;s most advanced AI-powered USMLE preparation platform. 
             Achieve your dream score and unlock your medical career potential.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-in-delay-2 px-4">
@@ -261,7 +261,7 @@ export default function HomePage() {
               How USMLE Transforms Your Medical Career
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              The USMLE isn't just an exam - it's your gateway to a successful medical career. 
+              The USMLE isn&apos;t just an exam - it&apos;s your gateway to a successful medical career. 
               Discover how achieving excellence opens doors to prestigious residencies and lifelong opportunities.
             </p>
           </div>

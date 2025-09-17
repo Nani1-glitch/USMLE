@@ -18,7 +18,7 @@ export async function GET(req: NextRequest) {
     let streak = 0;
     const sortedAttempts = [...attempts].reverse(); // Most recent first
     for (const attempt of sortedAttempts) {
-      if (attempt.correct || attempt.isCorrect) {
+      if ((attempt as any).correct || (attempt as any).isCorrect) {
         streak++;
       } else {
         break;
@@ -29,7 +29,7 @@ export async function GET(req: NextRequest) {
     const totalStudyTime = attempts.reduce((total: number, attempt: any) => {
       return total + (attempt.duration || 60); // Default 60 seconds per question
     }, 0);
-    const studyTimeMinutes = Math.round(totalStudyTime / 60);
+    const studyTimeMinutes = Math.round(Number(totalStudyTime) / 60);
 
     // Performance trend (last 7 days)
     const last7Days = Array.from({ length: 7 }, (_, i) => {
@@ -53,12 +53,12 @@ export async function GET(req: NextRequest) {
     // Topic-wise accuracy (from question topics)
     const topicStats: Record<string, { correct: number; total: number }> = {};
     for (const attempt of attempts) {
-      const question = byId.get(attempt.questionId);
+      const question = byId.get((attempt as any).questionId);
       const topic = question?.topic || 'general';
       
       topicStats[topic] = topicStats[topic] || { correct: 0, total: 0 };
       topicStats[topic].total += 1;
-      if (attempt.correct || attempt.isCorrect) {
+      if ((attempt as any).correct || (attempt as any).isCorrect) {
         topicStats[topic].correct += 1;
       }
     }

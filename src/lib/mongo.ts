@@ -6,10 +6,19 @@ if (!uri) {
   console.warn("MONGODB_URI not set; database features will be disabled.");
 }
 
-let cached = (global as any)._mongoose as { conn: typeof mongoose | null; promise: Promise<typeof mongoose> | null } | undefined;
+interface MongooseCache {
+  conn: typeof mongoose | null;
+  promise: Promise<typeof mongoose> | null;
+}
+
+declare global {
+  var _mongoose: MongooseCache | undefined;
+}
+
+let cached = global._mongoose;
 
 if (!cached) {
-  cached = (global as any)._mongoose = { conn: null, promise: null };
+  cached = global._mongoose = { conn: null, promise: null };
 }
 
 export async function connectMongo() {

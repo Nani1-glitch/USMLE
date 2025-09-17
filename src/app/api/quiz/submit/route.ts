@@ -19,6 +19,7 @@ export async function POST(req: NextRequest) {
     const duration = timeMs ? Math.round(timeMs / 1000) : 60; // Default 60 seconds if not provided
     
     addData("attempts", { 
+      id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
       userId: "single-user", 
       questionId, 
       isCorrect, 
@@ -32,9 +33,9 @@ export async function POST(req: NextRequest) {
     const reviews = readData("reviews").filter((r: any) => r.userId === "single-user" && r.questionId === questionId);
     if (reviews.length) {
       const review = reviews[0];
-      const { newEase, days } = nextInterval(review.ease || 2.5, review.intervalDays || 0, !!isCorrect);
+      const { newEase, days } = nextInterval((review as any).ease || 2.5, (review as any).intervalDays || 0, !!isCorrect);
       const dueAt = days ? new Date(Date.now() + days * 24 * 3600 * 1000).toISOString() : new Date().toISOString();
-      updateData("reviews", review.id, { ease: newEase, intervalDays: days, dueAt, updatedAt: new Date().toISOString() });
+      updateData("reviews", (review as any).id, { ease: newEase, intervalDays: days, dueAt, updatedAt: new Date().toISOString() } as any);
     }
 
     return new Response(JSON.stringify({ ok: true }));

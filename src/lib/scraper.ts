@@ -171,13 +171,14 @@ export class USMLEScraper {
       }
       
       return questions.slice(0, 5); // Limit per URL
-    } catch (error: any) {
-      console.error(`Error scraping ${url}:`, error.message);
+    } catch (error: unknown) {
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      console.error(`Error scraping ${url}:`, errorMessage);
       return [];
     }
   }
 
-  static async generateQuestionsFromScrapedData(scrapedQuestions: ScrapedQuestion[], topic: string): Promise<any[]> {
+  static async generateQuestionsFromScrapedData(scrapedQuestions: ScrapedQuestion[], topic: string): Promise<unknown[]> {
     // If no scraped questions, return empty array (fallback will be handled in the API)
     if (scrapedQuestions.length === 0) {
       return [];
@@ -229,7 +230,7 @@ Return as JSON array with format:
     }
   }
 
-  static async generateFallbackQuestions(topic: string): Promise<any[]> {
+  static async generateFallbackQuestions(topic: string): Promise<unknown[]> {
     try {
       // Use the existing quiz generate API instead
       const response = await fetch('/api/quiz/generate', {
@@ -242,8 +243,6 @@ Return as JSON array with format:
         throw new Error('Generate API failed');
       }
 
-      const question = await response.json();
-      
       // Generate multiple questions by calling the API multiple times
       const questions = [];
       for (let i = 0; i < 15; i++) {
@@ -258,7 +257,7 @@ Return as JSON array with format:
             const q = await resp.json();
             questions.push(q);
           }
-        } catch (e) {
+        } catch {
           console.log(`Failed to generate question ${i + 1}`);
         }
       }

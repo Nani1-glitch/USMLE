@@ -10,11 +10,11 @@ export async function POST(req: NextRequest) {
 
     await connectMongo();
 
-    const existing = await UserModel.findOne({ email }).lean();
+    const existing = await (UserModel as any).findOne({ email }).lean();
     if (existing) return new Response(JSON.stringify({ error: "Email already registered" }), { status: 409 });
 
     const passwordHash = await bcrypt.hash(password, 10);
-    const user = await UserModel.create({ email, passwordHash, name });
+    const user = await (UserModel as any).create({ email, passwordHash, name });
 
     return new Response(JSON.stringify({ ok: true, userId: String(user._id) }), { status: 201 });
   } catch (e) {

@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
     const { title, content, userId = "single-user" } = await req.json();
     if (!content || !title) return new Response(JSON.stringify({ error: "Missing content/title" }), { status: 400 });
 
-    const doc = addData("documents", { userId, title, source: "manual", createdAt: new Date().toISOString() });
+    const doc = addData("documents", { id: Date.now().toString(), userId, title, source: "manual", createdAt: new Date().toISOString() });
     const chunks = chunkText(content, 800);
 
     // Embed in batches
@@ -19,6 +19,7 @@ export async function POST(req: NextRequest) {
       const resp = await openai.embeddings.create({ model: defaultEmbeddingModel, input: batch });
       const vectors = resp.data.map((d) => d.embedding);
       const chunkDocs = batch.map((c, j) => ({
+        id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
         documentId: doc.id,
         userId,
         content: c,

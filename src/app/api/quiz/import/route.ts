@@ -9,6 +9,7 @@ export async function POST(req: NextRequest) {
     }
     
     const docs = questions.map((q: any) => ({
+      id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
       userId: "single-user",
       stem: q.stem,
       choices: q.choices,
@@ -24,6 +25,7 @@ export async function POST(req: NextRequest) {
     // Initialize review entries
     addedQuestions.forEach(q => {
       addData("reviews", { 
+        id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
         userId: "single-user", 
         questionId: q.id, 
         ease: 2.5, 

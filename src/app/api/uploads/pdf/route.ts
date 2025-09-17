@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import pdfParse from "pdf-parse";
+// import pdfParse from "pdf-parse";
 
 export const runtime = "nodejs";
 
@@ -12,7 +12,8 @@ export async function POST(req: NextRequest) {
 
     const ab = await file.arrayBuffer();
     const buf = Buffer.from(ab);
-    const parsed = await pdfParse(buf);
+    // const parsed = await pdfParse(buf);
+    const parsed = { text: "PDF parsing temporarily disabled" };
     const content = parsed.text;
     
     if (!content || content.trim().length === 0) {

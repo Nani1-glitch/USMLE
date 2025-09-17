@@ -75,11 +75,11 @@ IMPORTANT: Return ONLY a valid JSON array, no other text. Format:
       try {
         const questionData = {
           id: `q_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-          stem: question.stem,
-          choices: question.choices,
-          answerIndex: question.answerIndex,
-          explanation: question.explanation,
-          difficulty: question.difficulty || 3,
+          stem: (question as any).stem,
+          choices: (question as any).choices,
+          answerIndex: (question as any).answerIndex,
+          explanation: (question as any).explanation,
+          difficulty: (question as any).difficulty || 3,
           topic: topic,
           userId: "single-user",
           createdAt: new Date().toISOString(),
